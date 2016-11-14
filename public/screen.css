@@ -1,8 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 html {
   text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
+  background-color: hsl(200, 80%, 80%);
+  background-image: url(http://bossfight.co/wp-content/uploads/2015/08/boss-fight-free-high-quality-stock-images-photos-photography-night-sky-roof.jpg);
+background-size: cover;
+  height: auto;
+  margin: auto;
   font: 16px / 1 sans-serif;
+  font-family: roboto:400,700; sans-serif;
+  justify-content: center;
+}
+
+section {
+  margin: 10px;
+  justify-content: center;
+}
+
+header {
+  /*padding-bottom: 3em;*/
+}
+
+header.profile img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #333;
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+blockquote {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  border: 1px solid #333;
+  height: 80px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+  opacity: 0.7;
+  margin-left: 2em;
+  padding-left: -1em;
+}
+
+div blockquote {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+div.blockquote {
+  opacity: .73;
+  background-color: #;
+  height: 7em;
+  margin-left: 1.5em;
+  margin-top: -1.2em;
+  border-radius: 0.2em;
+  padding: 1.3em;
+  position: relative;
+}
+
+blockquote::after {
+  content: '';
+  background-image: url('https://raw.githubusercontent.com/tiy-tpa-fee/fee-c6/master/assignments/portfolio/assets/tri.png');
+  opacity: .92;
+  background-color: none;
+  height: 20px;
+  width: 20px;
+  display: block;
+  position: absolute;
+  bottom: -18px;
+  left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 15px;
+  font-family: roboto:700; sans-serif;
+  padding-left: 10px;
+}
+
+p {
+  font-size: 15px;
+  font-family: roboto; sans-serif;
+  text-align: left;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: transparent: 50;
+  /*opacity: 0.7;*/
+  margin-left: -1em;
+  margin-right: -1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.projects img {
+  height: 130px;
+  width: 190px;
+  border-radius: 4px;
+  border: 1px solid #333;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+div img {
+  flex-grow: 1em;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-left: -1em;
+  margin-right: -1em;
+  margin-top: -2em;
+  justify-content: center;
+  background-color: black;
+}
+
+article {
+  margin: 2em;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+}
+
+article div {
+  padding: 1em;
+}
+
+article header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px 4px 0 0;
+  height: 50px;
+
+}
+
+.float:left {
+  display: flex;
+  align-items: baseline;
+  display: inline;
+  float:left;
+}
+
+.float:right {
+  display: flex;
+  align-items: baseline;*/
+  display: inline;
+  float:right;
+}
+
+article h2 {
+  display: inline;
+  float:right;
+  font-size: 12px;
+  font-family: roboto; sans-serif;
+  line-height: 5px;
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+.more {
+  background-color: #0081d5;
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid #0081d5;
+  border-radius: 4px;
+}
+
+.more:link,
+.more:visited {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  margin-top: -2em;
+  padding-top: 2em;
+  justify-content: center;
+}
+
+div h4 {
+  display: flex;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 15px;
+  font-family: roboto: 700; sans-serif;
+  color: white;
+  justify-content: center;
+}
+
+h5 {
+  font-size: 10px;
+  line-height: 15px;
+  font-family: roboto; sans-serif;
+  color: white;
+  justify-content: center;
+  }
+
+.icons {
+  color: white;
+  align-content:space-between;
+  background-color: #0081d5;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+  border-radius: 35px;
+  border: 1px solid #0081d5;
+}
+
+.social {
+  justify-content: center;
+  display: flex;
+}
+
+.heart {
+  font-size: 8px;
+  line-height: 15px;
+  color: white;
+  padding: 2px;
+}
+
+* {
+  border: 1px solid red;
 }
